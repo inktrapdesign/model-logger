@@ -4,7 +4,9 @@ This package provides a simple way to log model changes in your Laravel applicat
 ## Installation
 You can install the package via composer:
 
-```composer install inktrapdesign/model-logger```
+```bash
+composer install inktrapdesign/model-logger
+```
 
 ## Setup
 You need to the LogTail Source to your environment file. This is the source that will be used to identify the log entries in LogTail.
