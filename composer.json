@@ -9,7 +9,7 @@
             "email": "tech@inktrap.co.uk"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "logtail/monolog-logtail": "^3.0"
     },
