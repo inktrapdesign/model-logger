@@ -11,7 +11,7 @@ composer install inktrapdesign/model-logger
 ## Setup
 You need to the LogTail Source to your environment file. This is the source that will be used to identify the log entries in LogTail.
 
-```php
+```shell
 LOGTAIL_SOURCE_TOKEN=1234567890
 ```
 
