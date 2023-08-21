@@ -15,8 +15,8 @@
         "logtail/monolog-logtail": "^3.0"
     },
     "autoload": {
-        "psr-4": {
-            "Inktrapdesign\\ModelLogger\\": "src/"
-        }
+        "classmap": [
+            "src/"
+        ]
     }
 }
