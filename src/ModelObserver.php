@@ -49,8 +49,8 @@ class ModelObserver
     {
         $class = $this->getClassName($model);
         $this->createLog([
-            'action' => 'Created',
-            'type' => "$class::$model->id",
+            'action' => '[Created]',
+            'type' => "[$class::$model->id]",
             'model' => $model
         ], "$class has been created");
     }
@@ -59,8 +59,8 @@ class ModelObserver
     {
         $class = $this->getClassName($model);
         $this->createLog([
-            'action' => 'Deleted',
-            'type' => "$class::$model->id",
+            'action' => '[Deleted]',
+            'type' => "[$class::$model->id]",
             'model' => $model
         ], "$class has been deleted");
     }
