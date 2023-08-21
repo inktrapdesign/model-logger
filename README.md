@@ -5,7 +5,7 @@ This package provides a simple way to log model changes in your Laravel applicat
 You can install the package via composer:
 
 ```bash
-composer install inktrapdesign/model-logger
+composer require inktrapdesign/model-logger
 ```
 
 ## Setup
