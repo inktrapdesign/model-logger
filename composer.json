@@ -1,0 +1,21 @@
+{
+    "name": "inktrapdesign/model-logger",
+    "description": "Logs model updates in better stack",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Inktrap",
+            "email": "tech@inktrap.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "logtail/monolog-logtail": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inktrapdesign\\ModelLogger\\": "src/"
+        }
+    }
+}
