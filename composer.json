@@ -3,13 +3,14 @@
     "description": "Logs model updates in better stack",
     "type": "package",
     "license": "MIT",
+    "version": "0.0.1",
     "authors": [
         {
             "name": "Inktrap",
             "email": "tech@inktrap.co.uk"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "logtail/monolog-logtail": "^3.0"
     },
