@@ -3,7 +3,7 @@
     "description": "Logs model updates in better stack",
     "type": "library",
     "license": "MIT",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "authors": [
         {
             "name": "Inktrap",
